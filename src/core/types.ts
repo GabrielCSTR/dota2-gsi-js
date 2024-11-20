@@ -1,8 +1,16 @@
-export interface GSIEvent {
-  event: string;
-  data: any;
-}
+import { IGamestate } from "./interfaces";
 
-export interface GSIConfig {
-  port?: number;
-}
+type FlattenObject<T> = {
+  [K in keyof T]: T[K] extends object
+    ? `${string & K}:${Extract<keyof FlattenObject<T[K]>, string>}`
+    : K;
+}[keyof T];
+
+export type GamestateEvents = FlattenObject<IGamestate>;
+
+type EventsGame = `${GamestateEvents}`;
+
+export type EventPayload = {
+  key: EventsGame;
+  value: string | number;
+};
