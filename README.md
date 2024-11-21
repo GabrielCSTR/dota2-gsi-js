@@ -99,9 +99,7 @@ Some folders may be **_hidden_**, so use these hotkeys to make them visible:
 > as an additional extension `*.cfg.txt` will be added to the file, and the
 > Dota 2 GSI server will not recognize it:
 > <a href="#">
-
     <img src="images/win_file_explorer_dont_create_using_right_click.png"  alt="Logo">
-
   </a>
 
 > ℹ️ If you want to name the file differently, use this format for the name:
@@ -218,4 +216,4 @@ Project Link: [https://github.com/GabrielCSTR/DOTA2-GSI-JS](https://github.com/G
 [cs]: https://img.shields.io/badge/Counter--Strike%20GSI-000000?style=for-the-badge&logo=counter-strike&logoColor=white
 [cs-url]: https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Game_State_Integration
 [discord]: https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white
-[discord-url]: https://discord.gg/9xCccyGF
+[discord-url]: https://discord.gg
